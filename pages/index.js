@@ -184,7 +184,7 @@ export default function Home() {
           </div>{/* tstmnl_desc */}
           </div>{/* tstmnl_lft */}
           <div className="tstmnl_rgt">
-          <WebPimg src="images/tess.png" webpsrc="images/webp/tess.webp" />
+          <WebPimg src="images/Tess.png" webpsrc="images/webp/Tess.webp" />
           </div>{/* tstmnl_rgt */}
       </div>{/* tstmnl_wrap */}
       <div className="tstmnl_more"><a href="#">More Testimonials</a></div>
