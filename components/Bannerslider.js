@@ -29,7 +29,7 @@ const BannerSlider = () => {
                             <div className="hme_bnr_label">Huge Variety of online stores options</div>
                             <div className="hme_bnr_desc">Fully customized ecommerce to emphatically <br />
                                 present your brands and products</div>
-                            <div className="hme_bnr_btn"><a className="common_btn" href="#">GET STARTED TODAY</a></div>
+                            <div className="hme_bnr_btn"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET STARTED TODAY</a></div>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const BannerSlider = () => {
                             <div className="hme_bnr_label">Huge Variety of online stores options</div>
                             <div className="hme_bnr_desc">Fully customized ecommerce to emphatically <br />
                                 present your brands and products</div>
-                            <div className="hme_bnr_btn"><a className="common_btn" href="#">GET STARTED TODAY</a></div>
+                            <div className="hme_bnr_btn"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET STARTED TODAY</a></div>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const BannerSlider = () => {
                         <div className="hme_bnr_label">Huge Variety of online stores options</div>
                         <div className="hme_bnr_desc">Fully customized ecommerce to emphatically <br />
                             present your brands and products</div>
-                        <div className="hme_bnr_btn"><a className="common_btn" href="#">GET STARTED TODAY</a></div>
+                        <div className="hme_bnr_btn"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET STARTED TODAY</a></div>
                         </div>
                     </div>
                     </div>
@@ -71,7 +71,7 @@ const BannerSlider = () => {
                         <div className="hme_bnr_label">Huge Variety of online stores options</div>
                         <div className="hme_bnr_desc">Fully customized ecommerce to emphatically <br />
                             present your brands and products</div>
-                        <div className="hme_bnr_btn"><a className="common_btn" href="#">GET STARTED TODAY</a></div>
+                        <div className="hme_bnr_btn"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET STARTED TODAY</a></div>
                         </div>
                     </div>
                     </div>

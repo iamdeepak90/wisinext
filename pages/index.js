@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>My Home Title</title>
+        <title>Web Design &amp; Development Company | Digital Marketing | SEO Services - Wisitech</title>
+
+        <meta name="description" content="Wisitech is a leading Web Design &amp; Development Company since 1999 and offers eCommerce, Digital Marketing, and SEO Services in USA, Canada &amp; India. Our team has years of experience creating high-quality websites."/>
       </Head>
       <BannerSlider />
          
@@ -166,7 +168,7 @@ export default function Home() {
               </div>{/* work_proc_col */}
           </div>{/* work_proc_wrap */}
           </div>{/* mob_scroll */}
-          <div className="const_btn"><a href="#" className="common_btn poppins">FREE 30 MINUTE CONSULTATION</a></div>
+          <div className="const_btn"><a href="https://www.wisitech.com/rfq-web-solutions/" className="common_btn poppins">FREE 30 MINUTE CONSULTATION</a></div>
       </div>{/* outer_wrapper */}
       </div>{/* work_proc_section */}
       <div className="testimonial_section">
@@ -180,21 +182,21 @@ export default function Home() {
               <p>They have taken the time to learn about our products to better position us for high sales.</p>
               <p><b>Tess Winningham</b><br />
               CEO &amp; Co Founder<br />
-              <a href="QuickTrickAlignment.com" target="_blank">QuickTrickAlignment.com</a></p>
+              <a href="https://quicktrickalignment.com/" target="_blank">QuickTrickAlignment.com</a></p>
           </div>{/* tstmnl_desc */}
           </div>{/* tstmnl_lft */}
           <div className="tstmnl_rgt">
           <WebPimg src="images/Tess.png" webpsrc="images/webp/Tess.webp" />
           </div>{/* tstmnl_rgt */}
       </div>{/* tstmnl_wrap */}
-      <div className="tstmnl_more"><a href="#">More Testimonials</a></div>
+      {/* <div className="tstmnl_more"><a href="https://www.wisitech.com/rfq-web-solutions/">More Testimonials</a></div> */}
   </div>{/* testimonial_section */}
 
 
   <div className="our_client_section">
       <div className="outer_wrapper">
           <div className="ourclnt_label poppins">Trusted By The</div>
-          <div className="heading poppins pad0">World’s Best Companies</div>
+          <div className="heading poppins pad0">World's Best Companies</div>
           <div className="ourclnt_row">
           <WebPimg src="images/client-logo-1.png" webpsrc="images/webp/client-logo-1.webp" alt="" />
           <WebPimg src="images/client-logo-2.png" webpsrc="images/webp/client-logo-2.webp" alt="" />
@@ -215,7 +217,7 @@ export default function Home() {
           <div className="letlk_rgt">
           <p>“When I founded Wisitech in January 1999, I believed we were at the right time to ride the crest of the digital wave as the World Wide Web exploded. We’ve stayed ahead of the technology trends to offer solutions that help our customers walk the web wisely and avoid the pitfalls. From ideation to design, from development to marketing, we partner you with a 360 degree approach. We know what works and will ensure it works for you.”</p>
           <p><b>Partho Mondal</b>, CEO, Wisitech</p>
-          <a href="#" className="common_btn">LET'S TALK</a>
+          <a href="https://www.wisitech.com/rfq-web-solutions/" className="common_btn">LET'S TALK</a>
           </div>{/* letlk_rgt */}
       </div>{/* let_tlk_wrap */}
       </div>{/* let_tlk_section */}
@@ -283,7 +285,7 @@ export default function Home() {
               Certification</div>
           </div>{/* google_ads_col */}
           </div>{/* google_ads_row */}
-          <div className="google_ads_btn"><a href="#" className="common_btn">FREE 30 MINUTE CONSULTATION</a></div>
+          <div className="google_ads_btn"><a href="https://www.wisitech.com/rfq-web-solutions/" className="common_btn">FREE 30 MINUTE CONSULTATION</a></div>
       </div>{/* google_ads_section */}
       </div>{/* outer_wrapper */}
     </>

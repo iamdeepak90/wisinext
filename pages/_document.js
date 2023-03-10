@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Wisitech | Home</title>
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0" />
         <link href="css/reset.css" rel="stylesheet" />
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
