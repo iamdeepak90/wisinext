@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from "axios"
 import Link from 'next/link'
 import WebPimg from './Webpimg';
 import { MdPhoneInTalk } from 'react-icons/md';
@@ -9,6 +10,32 @@ import menus from "../pages/api/menuitem.json"
 const Header = ({mystyle=null}) => {
 
     const [isMenu, setisMenu] = useState(false);
+    const [country, setCountry] = useState({code:"IN"});
+    
+    const getGeoInfo = async () => {
+        await axios.get('https://ipinfo.io/json').then((response) => {
+            let data = response.data;
+            setCountry({
+                code:data.country
+            });
+        }).catch((error) => {
+        console.log(error);
+        });
+    };
+
+    useEffect(() => {
+        getGeoInfo();
+    }, []);
+
+    const countryWisePhone = () => {
+        if(country.code == 'US' || country.code == 'CA'){
+            return <a href="tel:888.680.0174"> 888.680.0174</a>
+        } else if(country.code == 'IN'){
+            return <a href="tel:95828.49600"> 95828.49600</a>
+        } else{
+            return <a href="tel:0091.95828.49600"> 0091.95828.49600</a>
+        }
+    }
 
     return (
         <>
@@ -40,7 +67,9 @@ const Header = ({mystyle=null}) => {
 
                     <div className="head_cont">
                         <div className="get_purposal"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET A PROPOSAL</a></div>
-                        <div className="head_phone"><a href="tel:888.680.0174"> 888.680.0174</a></div>
+                        <div className="head_phone">
+                            {countryWisePhone()}
+                        </div>
                     </div>
 
                 </div>
