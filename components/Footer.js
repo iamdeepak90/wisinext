@@ -151,7 +151,7 @@ const Footer = () => {
                     </div>{/* ft_add_col */}
                     <div className="ft_add_col">
                         <div className="ft_add_row">
-                        <WebPimg src="images/canada-flag.png" webpsrc="images/webp/canada-flag.png" alt="" />
+                        <WebPimg src="images/canada-flag.png" webpsrc="images/webp/canada-flag.webp" alt="" />
                         <div className="ft_add_cont">
                             <div className="ft_contry_name poppins">CANADA</div>
                             <div className="ft_contry_represnt">Peeyush Sharma</div>
