@@ -67,7 +67,7 @@ export default function Home() {
           </div>{/* whyus_abt_col */}
           <div className="whyus_abt_col">
           <div className="whyus_abt_row">
-              <WebPimg src="images/solution-icon.png" webpsrc="images/wepb/solution-icon.webp" alt="" />
+              <WebPimg src="images/solution-icon.png" webpsrc="images/webp/solution-icon.webp" alt="" />
               <div className="whyus_title poppins">24+ Years</div>
               <div className="whyus_txt">Providing Solutions</div>
           </div>{/* whyus_abt_row */}

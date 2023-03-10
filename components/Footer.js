@@ -123,7 +123,7 @@ const Footer = () => {
                     <div className="ft_address_wrap">
                     <div className="ft_add_col">
                         <div className="ft_add_row">
-                        <WebPimg src="assets/images/india-flag.png" alt="" />
+                        <WebPimg src="images/india-flag.png" webpsrc="images/webp/india-flag.webp" alt="" />
                         <div className="ft_add_cont">
                             <div className="ft_contry_name poppins">INDIA</div>
                             <div className="ft_contry_represnt">Partho Mondal</div>
@@ -138,7 +138,7 @@ const Footer = () => {
                     </div>{/* ft_add_col */}
                     <div className="ft_add_col">
                         <div className="ft_add_row">
-                        <WebPimg src="assets/images/usa-flag.png" alt="" />
+                        <WebPimg src="images/usa-flag.png" webpsrc="images/webp/usa-flag.webp" alt="" />
                         <div className="ft_add_cont">
                             <div className="ft_contry_name poppins">USA</div>
                             <div className="ft_contry_represnt">Nader Y Zohar</div>
@@ -151,7 +151,7 @@ const Footer = () => {
                     </div>{/* ft_add_col */}
                     <div className="ft_add_col">
                         <div className="ft_add_row">
-                        <WebPimg src="assets/images/canada-flag.png" alt="" />
+                        <WebPimg src="images/canada-flag.png" webpsrc="images/webp/canada-flag.png" alt="" />
                         <div className="ft_add_cont">
                             <div className="ft_contry_name poppins">CANADA</div>
                             <div className="ft_contry_represnt">Peeyush Sharma</div>
@@ -165,7 +165,7 @@ const Footer = () => {
                     </div>{/* ft_address_wrap */}
                     <div className="ft_rating_row">
                     <a href="#" className="rating_row">
-                        <span><WebPimg src="assets/images/rating.png" alt="" /></span>
+                        <span><WebPimg src="images/rating.png" webpsrc="images/webp/rating.webp" alt="" /></span>
                         <div className="rating_txt">Rated 4.9 out of 5.0 for Ecommerce, Web &amp; App Development Services by 1200 clients on over 9000+ overall projects.</div>
                     </a>
                     </div>{/* ft_rating_row */}
