@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <link rel="shortcut icon" href="https://www.wisitech.com/wp-content/themes/massive-dynamic/images/index.ico" />
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0" />
         <link href="css/reset.css" rel="stylesheet" />
         <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
