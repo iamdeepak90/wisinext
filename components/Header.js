@@ -39,7 +39,7 @@ const Header = ({mystyle=null}) => {
                     </nav>
 
                     <div className="head_cont">
-                        <div className="get_purposal"><a className="common_btn" href="#">GET A PROPOSAL</a></div>
+                        <div className="get_purposal"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET A PROPOSAL</a></div>
                         <div className="head_phone"><a href="tel:888.680.0174"><MdPhoneInTalk/> 888.680.0174</a></div>
                     </div>
 
