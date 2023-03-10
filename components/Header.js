@@ -10,7 +10,7 @@ import menus from "../pages/api/menuitem.json"
 const Header = ({mystyle=null}) => {
 
     const [isMenu, setisMenu] = useState(false);
-    const [country, setCountry] = useState({code:"IN"});
+    const [country, setCountry] = useState({code:""});
     
     const getGeoInfo = async () => {
         await axios.get('https://ipinfo.io/json').then((response) => {
