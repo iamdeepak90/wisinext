@@ -17,7 +17,7 @@ nav ul li a{color:#fff; font-size:13px;text-transform:uppercase; font-weight: 60
 .get_purposal a:hover{background-color: #fff;color:#CA333B}
 .head_phone a{font-size:18px; font-weight:600;  padding:10px; color:#fff}
 .head_phone a i{padding-right:5px; font-size: 16px;}
-nav ul li ul{display: none;}
+nav ul li ul{display: none;} 
 .submenu{position: absolute; top:40px; left:0px; background-color: #fff; width: 230px; padding:15px 0 10px 0;}
 nav ul li .submenu li{float: none; width: 100%; margin-bottom:12px; padding: 0px;position:relative;}
 nav ul li .submenu li a{color:#000;   text-transform: capitalize; padding: 0 15px; font-weight: 500;display: block;}
