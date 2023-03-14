@@ -18,37 +18,37 @@ export default function Home() {
           <div className="expt_col">
           <div className="expt_img"><WebPimg src="images/Ecommerce-icon.png" alt="Ecommerce" webpsrc="images/webp/Ecommerce-icon.webp" /></div>
           <div className="expt_label poppins">PROFITABLE</div>
-          <div className="expt_title"><a className="poppins" href="#">Ecommerce</a></div>
+          <div className="expt_title"><a className="poppins" href="https://www.wisitech.com/ecommerce-web-design-development-company/">Ecommerce</a></div>
           <div className="expt_desc">Customize top of the line ecommerce frameworks to meet your needs and branding. Build dynamic, user-friendly and secure ecommerce store that delights shoppers and brings sales.</div>
           </div>{/* expt_col */}
           <div className="expt_col">
           <div className="expt_img"><WebPimg src="images/Digital-Marketing-icon.png" alt="Digital Marketing" webpsrc="images/webp/Digital-Marketing-icon.webp" /></div>
           <div className="expt_label">laser focused</div>
-          <div className="expt_title"><a href="#">Digital Marketing</a></div>
+          <div className="expt_title"><a href="https://www.wisitech.com/digital-marketing/">Digital Marketing</a></div>
           <div className="expt_desc">Get on top of Google search results, AdWords, Amazon, Etsy, eBay, Walmart and Wayfair searches. Leverage Social Media to create buzz with posts and paid campaigns. We we plan and execute laser-focused campaigns with high RoI.</div>
           </div>{/* expt_col */}
           <div className="expt_col">
           <div className="expt_img"><WebPimg src="images/UX-UI-icon.png" alt="UX/UI" webpsrc="images/webp/UX-UI-icon.webp" /></div>
           <div className="expt_label">harmonious</div>
-          <div className="expt_title"><a href="#">UX/UI</a></div>
+          <div className="expt_title"><a href="https://www.wisitech.com/ux-ui-design-services/">UX/UI</a></div>
           <div className="expt_desc">You want your visitors to be your buyers and your buyers to stay with you. Our UX/UI helps you achieve that. We create interactive, user-friendly and appealing designs that speak to your customers and help generate sales!</div>
           </div>{/* expt_col */}
           <div className="expt_col">
           <div className="expt_img"><WebPimg src="images/Web-Solutions-icon.png" webpsrc="images/webp/Web-Solutions-icon.webp" alt="Web Solutions" /></div>
           <div className="expt_label">CUSTOMIZED</div>
-          <div className="expt_title"><a href="#">Web Solutions</a></div>
+          <div className="expt_title"><a href="https://www.wisitech.com/web-development/">Web Solutions</a></div>
           <div className="expt_desc">Build your brand, engage customers, generate sales. Get result-oriented web solutions fully customized to meet your needs. We build your scalable, robust websites and web applications on the latest technologies and frameworks.</div>
           </div>{/* expt_col */}
           <div className="expt_col">
           <div className="expt_img"><WebPimg src="images/Graphic-Design-icon.png" webpsrc="images/webp/Graphic-Design-icon.webp" alt="Graphic Design" /></div>
           <div className="expt_label">captivating</div>
-          <div className="expt_title"><a href="#">Graphic Design</a></div>
+          <div className="expt_title"><a href="https://www.wisitech.com/ux-ui-design-services/">Graphic Design</a></div>
           <div className="expt_desc">Get sharp, convincing, no-frills designs for your websites, ecommerce stores, Apps, Amazon, Etsy, eBay stores, Social Media advertisements/banners and more… Our designs speak to your customers and help generate sales!</div>
           </div>{/* expt_col */}
           <div className="expt_col">
           <div className="expt_img"><WebPimg src="images/Mobile-Apps-icon.png" webpsrc="images/webp/Mobile-Apps-icon.webp" alt="Mobile Apps" /></div>
           <div className="expt_label">NewGen</div>
-          <div className="expt_title"><a href="#">Mobile Apps</a></div>
+          <div className="expt_title"><a href="https://www.wisitech.com/mobile-apps/">Mobile Apps</a></div>
           <div className="expt_desc">Unlock the potential of your business, increase sales and enhance branding. Target and efficiently interact with your users. Build a long-lasting relationship with your customers.</div>
           </div>{/* expt_col */}
       </div>{/* expt_section */}
@@ -186,7 +186,7 @@ export default function Home() {
           </div>{/* tstmnl_desc */}
           </div>{/* tstmnl_lft */}
           <div className="tstmnl_rgt">
-          <WebPimg src="images/Tess.png" webpsrc="images/webp/Tess.webp" />
+          <iframe width="400" height="250" src="https://www.youtube.com/embed/Q00E9iKaT18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>{/* tstmnl_rgt */}
       </div>{/* tstmnl_wrap */}
       {/* <div className="tstmnl_more"><a href="https://www.wisitech.com/rfq-web-solutions/">More Testimonials</a></div> */}

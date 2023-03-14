@@ -129,7 +129,7 @@ nav ul li .submenu li:hover .sub_sub_menu{display: block;}
 .tstmnl_more a:hover{text-decoration: none;}
 
 /* our client section */
-.our_client_section{width: 100%; padding: 70px 0; float: left; clear: both;}
+.our_client_section{width: 100%; padding: 70px 0; float: left; clear: both;background-color: #fff;}
 .ourclnt_row{width: 100%; display: flex; flex-wrap: wrap; padding: 22px 0 0 0;justify-content: space-between;}
 .ourclnt_label{font-size: 20px; line-height: 30px; font-weight: 600; text-align: center;}
 .our_client_section .heading{color:#CA333B}
@@ -199,14 +199,14 @@ footer{padding: 50px; margin: 70px 0 0 0; clear: both; float: left; background-c
 .ft_btm_rgt a:hover i{color: #fff;}
 
 
-@media screen and (max-width:1400px){
+@media screen and (max-width:1500px){
 .portfolio_section .slick-list{padding: 0 28% 0 0 !important;}
 .portfolio_section{padding: 0 0 30px 7.5%;}
 nav ul li{padding: 0 15px;}
 .menu_arrow i {top: 13px;right: -2px;cursor: pointer;font-size: 13px;}
-.home_banner_row .slick-dots{left: 30px;}
+.home_banner_row .slick-dots{left: 7px;}
 
-}/*1400*/
+}/*1500*/
 
 @media screen and (max-width:1300px){
 .get_purposal a{position: fixed;top: 30%;right: 0;}
