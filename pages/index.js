@@ -1,8 +1,23 @@
 import Head from 'next/head'
+import React, { useState, useEffect } from 'react';
+import axios from "axios"
 import BannerSlider from '@/components/Bannerslider'
 import WebPimg from '@/components/Webpimg'
 
 export default function Home() {
+
+    const [posts, setPosts] = useState([]);
+
+    const getBlogPosts = async() => {
+        const results = await axios.get("https://wisitech.com/wp-json/wp/v2/posts/?per_page=2");
+        setPosts(results.data);
+    };
+
+    useEffect(() => {
+        getBlogPosts();
+    }, []);
+
+
   return (
     <>
       <Head>
@@ -224,14 +239,16 @@ export default function Home() {
       <div className="outer_wrapper">
       <div className="heading">Our Blog</div>
       <div className="blog_section">
-          <div className="blog_col">
-          <WebPimg src="images/blog-1.png" webpsrc="images/webp/blog-1.webp" alt="" />
-          <a className="blog_title" href="#">How can you Benefit from Content Writing Services?</a>
-          </div>{/* blog_col */}
-          <div className="blog_col">
-          <WebPimg src="images/blog-2.png" webpsrc="images/webp/blog-2.webp" alt="" />
-          <a className="blog_title" href="#">Responsive Web Design Services  Create a Mobile-Friendly</a>
-          </div>{/* blog_col */}
+
+        {posts.map( (post, index)=>
+        
+            <div className="blog_col">
+                <WebPimg src={post.featured_image_src} alt={post.title.rendered} />
+                <a className="blog_title" href={post.link}>{post.title.rendered}</a>
+            </div>
+
+        )}
+
       </div>{/* blog_section */}
       <div className="award_section">
           <div className="heading">Recognitions &amp; Awards</div>
