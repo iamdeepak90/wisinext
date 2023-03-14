@@ -68,7 +68,7 @@ const Header = ({mystyle=null}) => {
                     <div className="head_cont">
                         <div className="get_purposal"><a className="common_btn" href="https://www.wisitech.com/rfq-web-solutions/">GET A PROPOSAL</a></div>
                         <div className="head_phone">
-                            {countryWisePhone()} {country.code}
+                            {countryWisePhone()}
                         </div>
                     </div>
 
